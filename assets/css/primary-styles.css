@@ -99,6 +99,7 @@ header nav ul li:hover {
 
 .hero-image h3 {
     font-size: 30px;
+    color: var(--quaternary-color);
 }
 
 .hero-text-box {
@@ -130,6 +131,7 @@ header nav ul li:hover {
     font-size: 24px;
     justify-content: flex-end;
     padding-right: 10px;
+    color: var(--tertiary-color);
 }
 
 .split-content {
@@ -137,4 +139,21 @@ header nav ul li:hover {
     flex: 4 85%;
     flex-wrap: wrap;
     padding-left: 25px;
+    color: var(--primary-color);
+}
+
+.contact-me-links a {
+    text-decoration: none;
+}
+
+.contact-me-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-me-links ul li {
+    padding: 10px 15px 0px 0px;
 }
