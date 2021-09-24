@@ -128,10 +128,12 @@ header nav ul li:hover {
 .split h2 {
     display: inline-flex;
     flex: 1 15%;
-    font-size: 24px;
+    font-size: 50px;
+    text-align: right;
     justify-content: flex-end;
     padding-right: 10px;
     color: var(--tertiary-color);
+    border-right: 3px solid var(--tertiary-color) ;
 }
 
 .split-content {
@@ -142,18 +144,22 @@ header nav ul li:hover {
     color: var(--primary-color);
 }
 
+.contact-me-links {
+    display: flex;  
+}
+
 .contact-me-links a {
     text-decoration: none;
 }
 
 .contact-me-links ul {
     display: flex;
+    flex: 1 20%;
     flex-wrap: wrap;
     list-style: none;
     justify-content: space-evenly;
-    align-items: center;
 }
 
 .contact-me-links ul li {
-    padding: 10px 15px 0px 0px;
+    display: flex;
 }
