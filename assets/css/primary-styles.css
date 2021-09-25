@@ -27,9 +27,6 @@ input,select{vertical-align:middle};
     --tertiary-color: #F77F00;
     --quaternary-color: #FCBF49;
     --quinary-color: #EAE2B7;
-    --link-style: 
-
-    
 }
 
 /* END Variables */
@@ -86,7 +83,7 @@ header a:hover {
 header nav {
     display: flex;
     align-items: center;
-    min-width: 20%;
+    min-width: 25%;
     padding-right: 45px;
 }    
 
@@ -98,7 +95,7 @@ header nav ul {
     justify-content: space-around;
 }
 
-/* START Hero Styles */
+/* BEGIN Hero Styles */
 
 .hero-image {
     min-height: 300px;
@@ -126,10 +123,7 @@ header nav ul {
 
 /* END Hero Styles */
 
-/* START Split-Section Styles */
-.content-container {
-
-}
+/* BEGIN Split-Section Styles */
 
 .split {
     margin: 30px auto;
@@ -147,7 +141,8 @@ header nav ul {
     justify-content: flex-end;
     padding-right: 15px;
     color: var(--tertiary-color);
-    border-right: 3px solid var(--quaternary-color) ;
+    border-right: 3px solid var(--quaternary-color);
+    min-width: 225px;
 }
 
 .split-content {
@@ -157,7 +152,34 @@ header nav ul {
     padding-left: 35px;
     color: var(--primary-color);
     line-height: 1.5;
+    min-width: 225px;
 }
+
+/* END Split-Section Styles */
+
+/* BEGIN Work-Specific Styles */
+
+.primary-application {
+    display: flex;
+    flex: 0 95%;
+    border: 3px solid var(--primary-color);
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.secondary-applications {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 45%;
+    max-width: 45%;
+    border: 3px solid var(--primary-color);
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* END Work-Specific Styles */
+
+/* BEGIN Contact Me-Specific Styles */
 
 .contact-me-links {
     display: flex;
@@ -171,6 +193,7 @@ header nav ul {
     color: var(--tertiary-color);
     text-decoration-color: var(--quaternary-color);
     transition: text-decoration-color .5s ease-out;
+    padding: 0px 20px;
 }
 
 .contact-me-links a:hover {
@@ -190,3 +213,5 @@ header nav ul {
     display: flex;
     /* flex: 1; */
 }
+
+/* END Contact Me-Specific Styles */
