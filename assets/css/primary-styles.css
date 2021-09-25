@@ -165,6 +165,7 @@ header nav ul {
     border: 3px solid var(--primary-color);
     border-radius: 5px;
     margin: 5px;
+    position: relative;
 }
 
 .secondary-applications {
@@ -175,7 +176,30 @@ header nav ul {
     border: 3px solid var(--primary-color);
     border-radius: 5px;
     margin: 5px;
+    position: relative;
 }
+
+.split-content img {
+    width: 100%;
+}
+
+.application-title-box {
+    position: absolute;
+    z-index: 1;
+    bottom: 6%;
+    left: 0;
+    color: var(--quaternary-color);
+    background-color: var(--primary-color);
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.application-title-box h4 {
+    font-size: 24px;
+    color: var(--tertiary-color);
+}
+
+
 
 /* END Work-Specific Styles */
 
