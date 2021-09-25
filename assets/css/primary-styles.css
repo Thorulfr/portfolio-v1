@@ -58,11 +58,10 @@ header h1 {
     font-size: 42px;
     font-weight: bold;
     color: var(--quaternary-color);
-    padding: 15px;
+    padding: 15px 45px;
 }
 
 header a {
-    text-decoration: none;
     color: var(--tertiary-color);
 }
 
@@ -70,6 +69,7 @@ header nav {
     display: flex;
     align-items: center;
     min-width: 20%;
+    padding-right: 45px;
 }
 
 header nav ul {
@@ -80,11 +80,7 @@ header nav ul {
     justify-content: space-around;
 }
 
-header nav ul li {
-    /* padding: 10px 15px; */
-}
-
-header nav ul li:hover {
+header nav ul:hover {
     /* Hover-over Styles */
 }
 
@@ -124,7 +120,7 @@ header nav ul li:hover {
 .split {
     margin: 30px auto;
     padding: 15px;
-    width: 80%;
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -147,6 +143,7 @@ header nav ul li:hover {
     flex-wrap: wrap;
     padding-left: 35px;
     color: var(--primary-color);
+    line-height: 1.5;
 }
 
 .contact-me-links {
@@ -154,7 +151,7 @@ header nav ul li:hover {
 }
 
 .contact-me-links a {
-    text-decoration: none;
+
 }
 
 .contact-me-links ul {
