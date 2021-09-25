@@ -27,6 +27,9 @@ input,select{vertical-align:middle};
     --tertiary-color: #F77F00;
     --quaternary-color: #FCBF49;
     --quinary-color: #EAE2B7;
+    --link-style: 
+
+    
 }
 
 /* END Variables */
@@ -43,6 +46,11 @@ input,select{vertical-align:middle};
 
 .text-right {
     text-align: right;
+}
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+    background-color: var(--quinary-color);
 }
 
 /* END Utility Styles */
@@ -63,6 +71,10 @@ header h1 {
 
 header a {
     color: var(--tertiary-color);
+    text-decoration-thickness: .2em;
+    text-underline-offset: 3px;
+    font-size: 20px;
+    padding: 0px 10px;
 }
 
 header nav {
@@ -99,7 +111,7 @@ header nav ul:hover {
 .hero-image h3 {
     font-size: 30px;
     color: var(--quaternary-color);
-    padding: 10px;
+    padding: 15px 10px 10px 10px;
 }
 
 .hero-text-box {
@@ -114,7 +126,7 @@ header nav ul:hover {
 
 /* START Split-Section Styles */
 .content-container {
-    background: var(--quinary-color);
+
 }
 
 .split {
@@ -151,7 +163,10 @@ header nav ul:hover {
 }
 
 .contact-me-links a {
-
+    text-decoration-thickness: .2em;
+    text-underline-offset: 3px;
+    font-size: 20px;
+    padding: 0px 10px;
 }
 
 .contact-me-links ul {
