@@ -45,10 +45,6 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ![Screenshot](./assets/images/readme-screenshot.png)
 
-## Badges
-
-![Last Commit](https://img.shields.io/github/last-commit/Thorulfr/Thorulfr.github.io)
-
 ## Contribution
 
 Code by Benjamin Holt
