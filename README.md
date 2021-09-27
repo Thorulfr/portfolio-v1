@@ -43,7 +43,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Screenshot
 
-![Screenshot](./assets/images/readme-screenshot)
+![Screenshot](./assets/images/readme-screenshot.png)
 
 ## Badges
 
