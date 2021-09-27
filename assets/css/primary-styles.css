@@ -33,18 +33,6 @@ input,select{vertical-align:middle};
 
 /* BEGIN Utility Styles */
 
-.flex-row {
-    display: flex;
-}
-
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
 body {
     font-family: "Josefin Sans", sans-serif;
     background-color: var(--quinary-color);
@@ -73,7 +61,12 @@ header a {
     text-underline-offset: 5px;
     font-size: 20px;
     padding: 0px 10px;
+    -webkit-transition: text-decoration-color .5s ease-out;
+    -moz-transition: text-decoration-color .5s ease-out;
+    -ms-transition: text-decoration-color .5s ease-out;
+    -o-transition: text-decoration-color .5s ease-out;
     transition: text-decoration-color .5s ease-out;
+    line-height: 2.0;
 }
 
 header a:hover {
@@ -176,6 +169,7 @@ header nav ul {
     -ms-transition: border-color .5s ease-out;
     -o-transition: border-color .5s ease-out;
     transition: border-color .5s ease-out;
+    min-width: inherit;
 }
 
 .primary-application img {
@@ -213,6 +207,7 @@ header nav ul {
     -ms-transition: border-color .5s ease-out;
     -o-transition: border-color .5s ease-out;
     transition: border-color .5s ease-out;
+    min-width: inherit;
 }
 
 .secondary-applications img {
@@ -265,6 +260,7 @@ header nav ul {
     font-size: 24px;
     color: var(--tertiary-color);
 }
+
 .application-title-box span {
     font-size: 16px;
 }
@@ -284,8 +280,13 @@ header nav ul {
     font-size: 20px;
     color: var(--tertiary-color);
     text-decoration-color: var(--quaternary-color);
+    -webkit-transition: text-decoration-color .5s ease-out;
+    -moz-transition: text-decoration-color .5s ease-out;
+    -ms-transition: text-decoration-color .5s ease-out;
+    -o-transition: text-decoration-color .5s ease-out;
     transition: text-decoration-color .5s ease-out;
     padding: 0px 20px;
+    line-height: 2.0;
 }
 
 .contact-me-links a:hover {
@@ -295,7 +296,6 @@ header nav ul {
 .contact-me-links ul {
     display: flex;
     width: 100%;
-    /* flex: 1 100%; */
     flex-wrap: wrap;
     list-style: none;
     justify-content: space-around;
@@ -303,7 +303,103 @@ header nav ul {
 
 .contact-me-links ul li {
     display: flex;
-    /* flex: 1; */
 }
 
 /* END Contact Me-Specific Styles */
+
+/* BEGIN Media Query for Smaller Screens and Smaller */
+
+@media screen and (max-width: 997px) {
+    header h1 {
+        padding: 15px 10px 15px 45px;
+        font-size: 36px;
+    }
+    
+    .hero-text-box {
+        position: unset;
+        justify-content: center;
+    }
+
+    .hero-image {
+        justify-content: center;
+        align-items:flex-end;
+        padding-bottom: 15px;
+    }
+
+    .hero-text-box {
+        text-align: center;
+        width: 100%;
+    }
+
+    .split h2 {
+        justify-content: flex-end;
+        min-width: fit-content;
+        font-size: 36px;
+        min-width: 135px;
+    }
+
+    .contact-me-links {
+        justify-content: center;
+    }
+
+    .contact-me-links ul {
+        display: unset;
+    }
+    
+    .contact-me-links ul li {
+        justify-content: center;        
+    }
+}
+
+/* END Media Query for Smaller Screens and Smaller */
+
+/* BEGIN Media Query for Tablets and Smaller */
+
+@media screen and (max-width: 785px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header h1 {
+        font-size: 42px;
+        padding: 15px 45px;
+    }
+
+    header nav {
+        padding: 0px 0px 15px 0px;
+    }
+
+    .secondary-applications {
+        flex: 0 100%;
+        flex-wrap: unset;
+        max-width: 100%;
+        max-height: fit-content;
+    }
+}
+
+/* END Media Query for Tablets and Smaller */
+
+/* BEGIN Media Query for Mobile Phones and Smaller*/
+
+@media screen and (max-width: 592px) {
+    header h1 {
+        text-align: center;
+    }
+    
+    .split {
+        flex-wrap: wrap;
+    }
+
+    .split h2 {
+        text-align: center;
+        justify-content: center;
+        padding-right: unset;
+        padding-bottom: 10px;
+        border-right: 0;
+        border-bottom: 3px solid var(--quaternary-color);
+        margin-bottom: 15px;
+    }
+}
+
+/* END Media Query for Mobile Phones and Smaller */
