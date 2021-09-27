@@ -400,6 +400,14 @@ header nav ul {
         border-bottom: 3px solid var(--quaternary-color);
         margin-bottom: 15px;
     }
+
+    .split-content {
+        padding-left: unset;
+    }
+
+    .split-content-text {
+        text-align: justify;
+    }
 }
 
 /* END Media Query for Mobile Phones and Smaller */
