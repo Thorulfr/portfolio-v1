@@ -150,9 +150,13 @@ header nav ul {
     flex: 4 85%;
     flex-wrap: wrap;
     padding-left: 35px;
+    min-width: 225px;
+}
+
+.split-content-text {
     color: var(--primary-color);
     line-height: 1.5;
-    min-width: 225px;
+    display: block;
 }
 
 /* END Split-Section Styles */
@@ -162,10 +166,36 @@ header nav ul {
 .primary-application {
     display: flex;
     flex: 0 100%;
-    border: 3px solid var(--primary-color);
+    border: 5px solid var(--primary-color);
     border-radius: 5px;
     margin: 5px;
     position: relative;
+    line-height: 0;
+    -webkit-transition: border-color .5s ease-out;
+    -moz-transition: border-color .5s ease-out;
+    -ms-transition: border-color .5s ease-out;
+    -o-transition: border-color .5s ease-out;
+    transition: border-color .5s ease-out;
+}
+
+.primary-application img {
+    width: 100%;
+}
+
+.primary-application:hover {
+    border-color: var(--quaternary-color);
+}
+
+.primary-application a {
+    -webkit-transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -ms-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+    transition: opacity .5s ease-out;
+}
+
+.primary-application:hover > a {
+    opacity: .65;
 }
 
 .secondary-applications {
@@ -173,14 +203,36 @@ header nav ul {
     flex-wrap: wrap;
     flex: 1 45%;
     max-width: 50%;
-    border: 3px solid var(--primary-color);
+    border: 5px solid var(--primary-color);
     border-radius: 5px;
     margin: 5px;
     position: relative;
+    line-height: 0;
+    -webkit-transition: border-color .5s ease-out;
+    -moz-transition: border-color .5s ease-out;
+    -ms-transition: border-color .5s ease-out;
+    -o-transition: border-color .5s ease-out;
+    transition: border-color .5s ease-out;
 }
 
-.split-content img {
+.secondary-applications img {
     width: 100%;
+}
+
+.secondary-applications:hover {
+    border-color: var(--quaternary-color);
+}
+
+.secondary-applications a {
+    -webkit-transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -ms-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+    transition: opacity .5s ease-out;
+}
+
+.secondary-applications:hover > a {
+    opacity: .65;
 }
 
 .application-title-box {
@@ -190,16 +242,32 @@ header nav ul {
     left: 0;
     color: var(--quaternary-color);
     background-color: var(--primary-color);
-    line-height: 1.5;
-    font-size: 16px;
+    line-height: 1.25;
+    padding: 10px 15px;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -ms-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+}
+
+.primary-application:hover > .application-title-box {
+    color: var(--secondary-color);
+    background-color: var(--quaternary-color);
+}
+
+.secondary-applications:hover > .application-title-box {
+    color: var(--secondary-color);
+    background-color: var(--quaternary-color);
 }
 
 .application-title-box h4 {
     font-size: 24px;
     color: var(--tertiary-color);
 }
-
-
+.application-title-box span {
+    font-size: 16px;
+}
 
 /* END Work-Specific Styles */
 
