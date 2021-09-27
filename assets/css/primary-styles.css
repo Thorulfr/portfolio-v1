@@ -143,6 +143,7 @@ header nav ul {
     flex: 4 85%;
     flex-wrap: wrap;
     padding-left: 35px;
+    padding-right: 10%;
     min-width: 225px;
 }
 
@@ -150,6 +151,7 @@ header nav ul {
     color: var(--primary-color);
     line-height: 1.5;
     display: block;
+    text-align: justify;
 }
 
 /* END Split-Section Styles */
@@ -403,6 +405,7 @@ header nav ul {
 
     .split-content {
         padding-left: unset;
+        padding-right: unset;
     }
 
     .split-content-text {
