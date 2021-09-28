@@ -14,7 +14,7 @@ function scrollToTop() {
 
 // Show/hide button, depending where user is on page
 function showScrollButton() {
-    if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+    if (document.body.scrollTop > 73 || document.documentElement.scrollTop > 73) {
         scrollButton.style.display = "block";
     } else {
         scrollButton.style.display = "none";
