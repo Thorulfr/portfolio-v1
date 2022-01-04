@@ -1,146 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/primary-styles.css"/>
-    <!-- Link to Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap">
-    <title>Benjamin Holt | Portfolio</title>
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/css/primary-styles.css" />
+        <!-- Link to Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        />
+        <title>Benjamin Holt | Portfolio</title>
+    </head>
 
-<body>
-    <!-- Header incl. Navigation -->
-    <header>
-        <h1>Benjamin Holt</h1>
-        <!-- Navigation -->
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-                <li>
-                    <a href="./assets/files/resume.pdf" target="_blank">Resume</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Hero + Backround Image -->
-    <section class="hero-image">
-        <div class="hero-text-box">
-            <h3>Vikings, Languages, and Full-Stack Development</h3>
-        </div>
-    </section>
-
-    <!-- About Me -->
-    <section id="about-me" class="content-container">
-        <div class="split">
-            <h2>About <br> Me</h2>
-            <div class="split-content split-content-text">
-                <p>
-                    I'm just embarking on my journey of full-stack web development! I've spent the last two and a half years as a knowledge and policy/procedure database manager with the Utah System of Higher Education. During my tenure there, I've developed skills in Sharepoint, Power Automate, Flow, Teams, and the Microsoft 365 ecosystem as a whole. I'm currently enrolled in a full-stack coding bootcamp through the University of Utah, at the conclusion of which I intend to pivot into full-time web development.
-                </p>
-                <br>
-                <p>
-                    My education includes an undergraduate degree in German Literature and Linguistics and a Master of Arts degree from the University of Iceland in comparative historical linguistics and network analysis as applied to Swedish and Danish runic inscriptions. I've been a linguistics-nut since about the age of 13, when I first started studying German. I also am an avid fan of guitar, synthesizer, and all things 80s.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Display Work Samples -->
-    <section id="work" class="content-container">
-        <div class="split">
-            <h2>Work</h2>
-            <div class="split-content">
-                <div class="primary-application">
-                    <a href="https://thorulfr.github.io/Streamability/" target="_blank" rel="noopener noreferrer">
-                        <img src="./assets/images/streamability-screenshot.png" alt="">
-                    </a>
-                    <div class="application-title-box">
-                        <h4>Streamability</h4>
-                        <span>HTML/CSS/JavaScipt/APIs</span>
-                    </div>
-                </div>
-                <div class="secondary-applications">
-                    <a href="https://thorulfr.github.io/run-buddy/" target="_blank" rel="noopener noreferrer">
-                        <img src="./assets/images/run-buddy-screenshot.png" alt="">
-                    </a>
-                    <div class="application-title-box">
-                        <h4>Run Buddy</h4>
-                        <span>HTML/CSS</span>
-                    </div>
-                </div>
-                <div class="secondary-applications">
-                    <a href="https://thorulfr.github.io/robot-gladiators/" target="_blank" rel="noopener noreferrer">
-                        <img src="./assets/images/robot-gladiators-screenshot.jpg" alt="">
-                        <!-- Photo by Joran Quinten, taken from Unsplash: https://unsplash.com/photos/MR9xsNWVKvo -->
-                    </a>
-                    <div class="application-title-box">
-                        <h4>Robot Gladiators</h4>
-                        <span>JavaScript</span>
-                    </div>
-                </div>
-                <div class="secondary-applications">
-                    <a href="https://thorulfr.github.io/code-refactor/" target="_blank" rel="noopener noreferrer">
-                        <img src="./assets/images/horiseon-screenshot.png" alt="">
-                    </a>
-                    <div class="application-title-box">
-                        <h4>Horiseon</h4>
-                        <span>Code Refactor</span>
-                    </div>
-                </div>
-                <div class="secondary-applications">
-                    <a href="https://github.com/Thorulfr" target="_blank" rel="noopener noreferrer">
-                        <img src="./assets/images/placeholder-screenshot.png" alt="">
-                    </a>
-                    <div class="application-title-box">
-                        <h4>Placeholder</h4>
-                        <span>Placeholder</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Me -->
-    <section id="contact-me" class="content-container">
-        <div class="split">
-            <h2>Contact <br> Me</h2>
-            <!-- Contact Links -->
-            <div class="split-content contact-me-links" >
+    <body>
+        <!-- Header incl. Navigation -->
+        <header>
+            <h1>Benjamin Holt</h1>
+            <!-- Navigation -->
+            <nav>
                 <ul>
                     <li>
-                        <a href="tel:+18018760480">801.876.0480</a>
+                        <a href="#about-me">About Me</a>
                     </li>
                     <li>
-                        <a href="mailto:holt.benjamin.eric@gmail.com" target="_blank" rel="noopener noreferrer">holt.benjamin.eric@gmail.com</a>
+                        <a href="#work">Work</a>
                     </li>
                     <li>
-                        <a href="https://github.com/Thorulfr" target="_blank" rel="noopener noreferrer">Thorulfr @ GitHub</a>
+                        <a href="#contact-me">Contact Me</a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/benjamin-thorulfr-holt/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <a href="./assets/files/resume.pdf" target="_blank"
+                            >Resume</a
+                        >
                     </li>
                 </ul>
+            </nav>
+        </header>
+
+        <!-- Hero + Backround Image -->
+        <section class="hero-image">
+            <div class="hero-text-box">
+                <h3>Vikings, Languages, and Full-Stack Development</h3>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Scroll-to-Top Button -->
-    <button onclick="scrollToTop()" id="scroll-to-top-button" title="Back to Top">Back to Top</button>
+        <!-- About Me -->
+        <section id="about-me" class="content-container">
+            <div class="split">
+                <h2>
+                    About <br />
+                    Me
+                </h2>
+                <div class="split-content split-content-text">
+                    <p>
+                        I'm just embarking on my journey of full-stack web
+                        development! I've spent the last two and a half years as
+                        a knowledge and policy/procedure database manager with
+                        the Utah System of Higher Education. During my tenure
+                        there, I've developed skills in Sharepoint, Power
+                        Automate, Flow, Teams, and the Microsoft 365 ecosystem
+                        as a whole. I'm currently enrolled in a full-stack
+                        coding bootcamp through the University of Utah, at the
+                        conclusion of which I intend to pivot into full-time web
+                        development.
+                    </p>
+                    <br />
+                    <p>
+                        My education includes an undergraduate degree in German
+                        Literature and Linguistics and a Master of Arts degree
+                        from the University of Iceland in comparative historical
+                        linguistics and network analysis as applied to Swedish
+                        and Danish runic inscriptions. I've been a
+                        linguistics-nut since about the age of 13, when I first
+                        started studying German. I also am an avid fan of
+                        guitar, synthesizer, and all things 80s.
+                    </p>
+                </div>
+            </div>
+        </section>
 
-    <!-- Link to JS -->
-    <script src="./assets/js/primary-js.js"></script>
-</body>
+        <!-- Display Work Samples -->
+        <section id="work" class="content-container">
+            <div class="split">
+                <h2>Work</h2>
+                <div class="split-content">
+                    <div class="primary-application">
+                        <a
+                            href="https://no1fan.herokuapp.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                src="./assets/images/no1fan-screenshot.png"
+                                alt=""
+                            />
+                        </a>
+                        <div class="application-title-box">
+                            <h4>#1 Fan</h4>
+                            <span>Full-Stack Development</span>
+                        </div>
+                    </div>
+                    <div class="secondary-applications">
+                        <a
+                            href="https://thorulfr.github.io/Streamability/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                src="./assets/images/streamability-screenshot.png"
+                                alt=""
+                            />
+                        </a>
+                        <div class="application-title-box">
+                            <h4>Streamability</h4>
+                            <span>HTML/CSS/JavaScipt/APIs</span>
+                        </div>
+                    </div>
+                    <div class="secondary-applications">
+                        <a
+                            href="https://thorulfr.github.io/run-buddy/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                src="./assets/images/run-buddy-screenshot.png"
+                                alt=""
+                            />
+                        </a>
+                        <div class="application-title-box">
+                            <h4>Run Buddy</h4>
+                            <span>HTML/CSS</span>
+                        </div>
+                    </div>
+                    <div class="secondary-applications">
+                        <a
+                            href="https://thorulfr.github.io/robot-gladiators/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                src="./assets/images/robot-gladiators-screenshot.jpg"
+                                alt=""
+                            />
+                            <!-- Photo by Joran Quinten, taken from Unsplash: https://unsplash.com/photos/MR9xsNWVKvo -->
+                        </a>
+                        <div class="application-title-box">
+                            <h4>Robot Gladiators</h4>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="secondary-applications">
+                        <a
+                            href="https://thorulfr.github.io/code-refactor/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                src="./assets/images/horiseon-screenshot.png"
+                                alt=""
+                            />
+                        </a>
+                        <div class="application-title-box">
+                            <h4>Horiseon</h4>
+                            <span>Code Refactor</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Me -->
+        <section id="contact-me" class="content-container">
+            <div class="split">
+                <h2>
+                    Contact <br />
+                    Me
+                </h2>
+                <!-- Contact Links -->
+                <div class="split-content contact-me-links">
+                    <ul>
+                        <li>
+                            <a href="tel:+18018760480">801.876.0480</a>
+                        </li>
+                        <li>
+                            <a
+                                href="mailto:holt.benjamin.eric@gmail.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >holt.benjamin.eric@gmail.com</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/Thorulfr"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Thorulfr @ GitHub</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.linkedin.com/in/benjamin-thorulfr-holt/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >LinkedIn</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scroll-to-Top Button -->
+        <button
+            onclick="scrollToTop()"
+            id="scroll-to-top-button"
+            title="Back to Top"
+        >
+            Back to Top
+        </button>
+
+        <!-- Link to JS -->
+        <script src="./assets/js/primary-js.js"></script>
+    </body>
 </html>
