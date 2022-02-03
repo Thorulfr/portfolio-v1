@@ -39,7 +39,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Website
 
-<https://thorulfr.github.io/>
+<https://thorulfr.github.io/Thorulfr.github.io_v1/>
 
 ## Screenshot
 
